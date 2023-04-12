@@ -1,6 +1,11 @@
+
+
 # A File Opener Plugin for Cordova
 
-[![Latest Stable Version](https://img.shields.io/npm/v/cordova-plugin-file-opener2.svg)](https://www.npmjs.com/package/cordova-plugin-file-opener2) [![Total Downloads](https://img.shields.io/npm/dt/cordova-plugin-file-opener2.svg)](https://npm-stat.com/charts.html?package=cordova-plugin-file-opener2)
+[![NPM version](https://img.shields.io/npm/v/community-cordova-plugin-file-opener)](https://www.npmjs.com/package/community-cordova-plugin-file-opener)
+[![Downloads](https://img.shields.io/npm/dm/community-cordova-plugin-file-opener)](https://www.npmjs.com/package/community-cordova-plugin-file-opener)
+
+#### This is a fork of the original plugin cordova-plugin-file-opener2
 
 This plugin will open a file on your device file system with its default application.
 
@@ -18,7 +23,7 @@ cordova.plugins.fileOpener2.open(
 ## Installation
 
 ```shell
-$ cordova plugin add cordova-plugin-file-opener2
+$ cordova plugin add community-cordova-plugin-file-opener
 ```
 
 ### Optional variables
@@ -26,7 +31,7 @@ $ cordova plugin add cordova-plugin-file-opener2
 This plugin requires the Android support library v4. From release `2.1.0` the version of this can be set at installation. The minimum version is `24.1.0`. Default value is `27.+`. [Check out the latest version](https://developer.android.com/topic/libraries/support-library/revisions.html).
 
 ```shell
-$ cordova plugin add cordova-plugin-file-opener2  --variable ANDROID_SUPPORT_V4_VERSION="27.+"
+$ cordova plugin add community-cordova-plugin-file-opener  --variable ANDROID_SUPPORT_V4_VERSION="27.+"
 ```
 
 If you are using the `cordova-android-support-gradle-release` plugin it should match the value you have set there.
