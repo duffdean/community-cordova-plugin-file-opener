@@ -7,6 +7,17 @@
 
 #### This is a fork of the original plugin cordova-plugin-file-opener2
 
+I dedicate a considerable amount of my free time to developing and maintaining many cordova plugins for the community ([See the list with all my maintained plugins][community_plugins]).
+To help ensure this plugin is kept updated,
+new features are added and bugfixes are implemented quickly,
+please donate a couple of dollars (or a little more if you can stretch) as this will help me to afford to dedicate time to its maintenance.
+Please consider donating if you're using this plugin in an app that makes you money,
+or if you're asking for new features or priority bug fixes. Thank you!
+
+[![](https://img.shields.io/static/v1?label=Sponsor%20Me&style=for-the-badge&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/eyalin)
+
+
+
 This plugin will open a file on your device file system with its default application.
 
 ```js
@@ -183,6 +194,8 @@ cordova.plugins.fileOpener2.appIsInstalled('com.adobe.reader', {
 ---
 
 ## Android APK installation limitation
+
+[community_plugins]: https://github.com/EYALIN?tab=repositories&q=community&type=&language=&sort=
 
 
 ```
